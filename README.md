@@ -159,3 +159,26 @@ npm install
 ```
 node server.js
 ```
+# Dockerized Node.js & PostgreSQL Application
+
+This project demonstrates the containerization of a Node.js backend application using Docker and Docker Compose.
+
+## Technologies Used
+- Node.js (Express)
+- Sequelize ORM
+- PostgreSQL
+- Docker
+- Docker Compose
+
+## Project Structure
+- `Dockerfile` – Defines the backend container
+- `docker-compose.yml` – Manages backend and database containers
+- `.env.example` – Sample environment variables
+- `app/` – Application source code
+
+## How to Run the Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/USERNAME/dockerized-node-postgres-app.git
+cd dockerized-node-postgres-app
